@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Login Form</title>
+ <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<div id="header">
+<marquee><h1 style="color:red">Welcome to our Website</marquee>
+</div>
+
+<div id="left">
+<a href =Login.html>
+<h5>Login</h5>
+<h5>Already Register</h5>
+</a>
+</div>
+
+<div id="section">
+<h1 style="color:green">Login Form</h1>
+<fieldset>
+<form action="welcome.php" method ="post">
+<label for ="username" >Username</label>
+<input type="text" name="name"><br/>
+<label for ="password" >Password</label>
+<input type="password" name="password"><br/>
+<input type="submit"  value="Submit">
+<a href =register.html>Register</a>
+</form>
+</fieldset>
+</div>
+<div id="footer">
+<h3>Copyright@Thiruveni</h3>
+</div>
+
+
+</body>
+</html>
